@@ -4,6 +4,27 @@ methods for interacting with the board by placing pieces, looking up the makeup 
 and looking up game status. The Main Loop with call these methods appropriately.
 
 Board Object:
-
+    Private Fields:
+        - 2D list representing game board
+        - current player
+    
+    Private Methods:
+        - initialization
+            - generate board
+            - assign player
+            - set game status to ongoing
+        - check_move
+            - checks a possible move to see if valid
+        - check_game_status
+            - updates game status based on board
+    
+    Public Methods:
+        - info 
+            - returns board layout, current player, and game status
+        - move
+            - input validation (check_move)
+            - places current player's piece at inputed spot
+            - switches players
+            - check and update game status (check_game_status)
 
 Main Loop:
