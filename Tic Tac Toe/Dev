@@ -1,0 +1,9 @@
+This game will be built using a Board Object and a Main Game Loop. The board object will hold all
+data on the board including the location of pieces and whose turn is next. It will also contain
+methods for interacting with the board by placing pieces, looking up the makeup of the board,
+and looking up game status. The Main Loop with call these methods appropriately.
+
+Board Object:
+
+
+Main Loop:
