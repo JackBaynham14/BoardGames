@@ -4,6 +4,9 @@ methods for interacting with the board by placing pieces, looking up the makeup 
 and looking up game status. The Main Loop with call these methods appropriately.
 
 Board Object:
+    - Simulates a checkers board by storing information about the board and providing methods to 
+        interact with It
+    
     Private Fields:
         - 2D list representing game board
         - current player
@@ -28,3 +31,5 @@ Board Object:
             - check and update game status (check_game_status)
 
 Main Loop:
+    - Calls the methods to interact with the checkers board object and other modules such as gui
+        input and output and networking input and output
