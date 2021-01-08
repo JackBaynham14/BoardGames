@@ -5,7 +5,7 @@ and looking up game status. The Main Loop with call these methods appropriately.
 
 Board Object:
     - Simulates a checkers board by storing information about the board and providing methods to 
-        interact with It
+        interact with it.
     
     Private Fields:
         - 2D list representing game board
@@ -30,6 +30,14 @@ Board Object:
             - switches players
             - check and update game status (check_game_status)
 
+GUI Module:
+    - Handles graphical input and output for the program. Initializes the graphics object and
+        handles interpreting keyboard/mouse actions. Also updates the GUI to match the board
+        status.
+    
+Networking Module:
+    - TBD
+
 Main Loop:
     - Calls the methods to interact with the checkers board object and other modules such as gui
-        input and output and networking input and output
+        input and output and networking input and output.

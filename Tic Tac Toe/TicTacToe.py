@@ -6,6 +6,8 @@ This program simulates a game of TicTacToe. It interacts with the Board object
 from Board import Board
 
 def main():
-    pass
+    '''
+    board = 
+    '''
 
 #main()
